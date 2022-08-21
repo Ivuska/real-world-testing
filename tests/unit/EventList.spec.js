@@ -1,7 +1,7 @@
 import EventList from '@/views/EventList'
 import { mount } from '@vue/test-utils'
 import store from '@/store'
-import router from 'vue-router'
+import router from '@/router'
 
 // Meaningful coverage - a test that will fail when the features most critical to the application are broken.
 describe('EventList', () => {
